@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter, Route, Link } from 'react-router-dom';
 import Snack from './Snack.js';
 
 const VendingMachine = ({ snacks=['soda', 'chips', 'water'] }) => {

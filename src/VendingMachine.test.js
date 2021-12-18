@@ -8,6 +8,6 @@ describe('VendingMachine component', () => {
 
   it('should pass a snapshot test', () => {
     const { asFragment } = render(<VendingMachine />);
-    expect(asFragment()).toMatchSnapshot();
+    expect(asFragment()).toMatchSnapshot(); 
   });
 });
