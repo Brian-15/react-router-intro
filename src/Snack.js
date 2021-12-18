@@ -3,9 +3,12 @@ import Link from 'react-router-dom';
 
 const Snack = ({ name }) => {
   return (
-    <li>
-      <p><Link>{name}</Link></p>
-    </li>
+    <>
+      <Link to="/">
+        <button>Back</button>
+      </Link>
+      <p>{ name }</p>
+    </>
   );
 };
 
